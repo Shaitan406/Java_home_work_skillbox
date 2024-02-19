@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestMarkResult {
+public class MarkResultTest {
     @Test
     public void markTest1() {
         var actualResult = getMarkResult(0);
