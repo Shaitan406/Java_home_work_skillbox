@@ -3,53 +3,53 @@ import org.junit.Test;
 
 public class TestMarkResult {
     @Test
-    public void testMark1() {
+    public void markTest1() {
         var actualResult = getMarkResult(0);
         Assert.assertEquals("2", actualResult);
 
     }
     @Test
-    public void testMark2() {
+    public void markTest2() {
         var actualResult = getMarkResult(35);
         Assert.assertEquals("2", actualResult);
     }
     @Test
-    public void testMark3() {
+    public void markTest3() {
         var actualResult = getMarkResult(36);
         Assert.assertEquals("3", actualResult);
     }
     @Test
-    public void TestMark4() {
+    public void markTest4() {
         var actualResult = getMarkResult(56);
         Assert.assertEquals( "3", actualResult);
     }
     @Test
-    public void TestMark5() {
+    public void markTest5() {
         var actualResult = getMarkResult(57);
         Assert.assertEquals( "4" , actualResult);
     }
     @Test
-    public void TestMark6() {
+    public void markTest6() {
         var actualResult = getMarkResult(71);
         Assert.assertEquals("4", actualResult);
     }
     @Test
-    public void TestMark7() {
+    public void markTest7() {
         var actualResult = getMarkResult(72);
         Assert.assertEquals("5" , actualResult);
     }
     @Test
-    public void TestMark8() {
+    public void markTest8() {
         var actualResult = getMarkResult(100);
         Assert.assertEquals("5" , actualResult);
     }
     @Test
-    public void TestMark9() {
+    public void markTest9() {
         var actualResult = getMarkResult(-1);
         Assert.assertEquals("no mark result" , actualResult);
     }
     @Test
-    public void TestMark10() {
+    public void markTest10() {
         var actualResult = getMarkResult(110);
         Assert.assertEquals("no mark result" , actualResult);
     }
