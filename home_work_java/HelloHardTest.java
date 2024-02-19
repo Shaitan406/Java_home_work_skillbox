@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HelloHardTest {
     @Test
     public void helloTest1() {
-        System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" ,"drivers\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
         driver.findElement(By.name("name")).sendKeys("Иванов Иван Иванович");
@@ -20,7 +20,7 @@ public class HelloHardTest {
     }
     @Test
     public void helloTest2() {
-        System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" ,"drivers\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
         driver.findElement(By.name("email")).sendKeys("test@test.com");
@@ -34,7 +34,7 @@ public class HelloHardTest {
     }
     @Test
     public void helloTest3() {
-        System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" ,"drivers\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
         driver.findElement(By.name("phone")).sendKeys("+375295971282");
@@ -48,7 +48,7 @@ public class HelloHardTest {
     }
     @Test
     public void helloTest4() {
-        System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" ,"drivers\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
         driver.findElement(By.className("button")).click();
@@ -62,7 +62,7 @@ public class HelloHardTest {
     @Test
     public void helloTest5() {
 
-        System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" ,"drivers\chromedriver.exe");;
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
         driver.findElement(By.name("name")).sendKeys( "Иванов Иван Иванович");
