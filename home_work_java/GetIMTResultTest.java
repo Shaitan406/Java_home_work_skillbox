@@ -3,38 +3,38 @@ import org.junit.Test;
 
 public class TestgetIMTResult {
         @Test
-        public void testIMTResult1()   {
+        public void iMTResultTest1()   {
     
             var actualResult = getIMTResult( 0f, 75f);
             Assert.assertEquals(" указан некорректный рост", actualResult);
         }
 
         @Test
-        public void testIMTResult2() {
+        public void iMTResultTest2() {
 
             var actualResult = getIMTResult( 180f,  0f);
             Assert.assertEquals( " указан некорректный вес", actualResult);
         }
         @Test
-        public void testIMTResult3()   {
+        public void iMTResultTest3()   {
 
         var actualResult = getIMTResult( 180f, 52f);
         Assert.assertEquals(" выраженному дефициту массы тела", actualResult);
         }
         @Test
-        public void testIMTResult4()   {
+        public void iMTResultTest4()   {
 
         var actualResult = getIMTResult( 180f, 58f);
         Assert.assertEquals(" недостаточной массе тела", actualResult);
         }
         @Test
-        public void testIMTResult5()   {
+        public void iMTResultTest5()   {
 
         var actualResult = getIMTResult( 170f, 70f);
         Assert.assertEquals(" нормальной массе тела", actualResult);
         }
         @Test
-        public void testIMTResult6()   {
+        public void iMTResultTest6()   {
 
         var actualResult = getIMTResult( 180f, 95f);
         Assert.assertEquals(" избыточной массе тела", actualResult);
