@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-public class TestTicetReturn {
+public class TicetReturnTest {
     @Test
     public void domzadanie1() {
 
