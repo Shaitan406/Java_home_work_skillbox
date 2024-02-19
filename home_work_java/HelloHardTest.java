@@ -3,9 +3,9 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class HelloTestHard {
+public class HelloHardTest {
     @Test
-    public void testHello1() {
+    public void helloTest1() {
         System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
@@ -19,7 +19,7 @@ public class HelloTestHard {
         driver.quit();
     }
     @Test
-    public void testHello2() {
+    public void helloTest2() {
         System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
@@ -33,7 +33,7 @@ public class HelloTestHard {
         driver.quit();
     }
     @Test
-    public void testHello3() {
+    public void helloTest3() {
         System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
@@ -47,7 +47,7 @@ public class HelloTestHard {
         driver.quit();
     }
     @Test
-    public void testHello4() {
+    public void helloTest4() {
         System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
         var driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module02/homework1/");
@@ -60,7 +60,7 @@ public class HelloTestHard {
         driver.quit();
     }
     @Test
-    public void testHello5() {
+    public void helloTest5() {
 
         System.setProperty("java.lang.System", "drivers\\chromedriver.exe");
         var driver = new ChromeDriver();
