@@ -9,7 +9,7 @@ public class ZadanieTestVasya1 {
     @Test
     public void helloVasyaTest1 () {
 
-        System.setProperty("java.lang.System" , "drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver" ,"drivers\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("https://lm.skillbox.cc/qa_tester/module01/");
         driver.findElement(By.name("name")).sendKeys("Вася");
